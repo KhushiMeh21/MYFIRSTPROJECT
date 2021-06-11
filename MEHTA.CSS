@@ -1,0 +1,258 @@
+/* CSS RESET */
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+/* CSS VARIABLES */
+:root{
+    --navbar-height: 19px;
+}
+/* navigation bar */
+#navbar{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top:0px;
+            
+            
+}
+
+ #navbar::before{  
+     content: " "; 
+ 
+ position: absolute; 
+ height:100%; 
+ width: 100%; 
+ opacity: 0.5; 
+z-index: -2; 
+
+ } 
+
+/*  navigatation bar :logo and image */
+#logo{
+margin: 10px;
+
+}
+#logo img{
+    height: 48px;
+    margin : 2px 13px;
+
+}
+/* navigation bar: list styling */
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+
+list-style: none;
+font-size: 1em;
+
+
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 23px 32px;
+    border-radius: 22px;
+    text-decoration: none;
+color:rgb(73, 38, 31);
+list-style: none;
+font-size: 1.1em;
+}
+#navbar ul li a:hover{
+    display: block;
+    color: darkred;
+    background-color: blanchedalmond;
+    
+    /* padding: 23px 32px; */
+    /* border-radius: 22px; */
+    /* text-decoration: none; */
+/* color:brown; */
+/* list-style: none; */
+/* font-size: 1.3em; */
+}
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px;
+    
+    align-items: center;
+
+}
+#home::before{
+    content: " ";
+    background: url('./pictures/tasty.jpeg') no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    opacity:0.96;
+    
+    
+    z-index: -1;
+    
+
+}
+#home h1{
+    color:whitesmoke;
+    text-align: center;
+}#home p{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* services section */
+#services{
+    margin: 3px;
+    display: flex;
+
+}
+#services .box {
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    height: 50%;
+    width: 28%;
+    padding: 36px;
+    margin:-1px 4px;
+    border-radius: 23px;
+    background-color: rgba(231, 226, 228, 0.904);
+    top:2px;
+    bottom: 2px;
+}
+#services .box img {
+    height: 150%;
+    width: 70%;
+    border: 2px solid brown;
+    margin-top: 10px;
+     margin-left: 50px;
+     margin-bottom: 19px;
+
+    
+
+}
+
+
+
+
+
+
+
+
+/* utlity class */
+.hprimary{
+    font-size : 3.3em;
+    padding: 120px;
+    margin: 4px 7PX;
+    
+
+    
+
+    
+    
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+
+}
+.hsecond{
+    font-size : 2.1em;
+    position: inherit;
+    padding: 10px 65px;
+    
+    
+}
+.btn{
+    padding: 6px 40px;
+    border: 2px solid black;
+background-color: blanchedalmond;
+margin: 2px;
+font: outline;
+border-radius: 5px;
+cursor: pointer;
+}
+.center{
+    text-align: center;
+
+}
+/* clients section */
+#client{
+    height: 132px;
+
+}
+#client::before{
+    content: "";
+    position: absolute;
+    background: url(./pictures/pexels-photo-1640777.jpeg);
+    height: 30%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    padding: 8PX;
+    margin: -69PX;
+
+
+    
+}
+#clients img{
+    margin-top: 23PX;
+    height: 120px;
+    padding: 30PX;
+    margin-left: 45PX;
+    
+    
+    
+    
+} 
+.citem{
+    padding: 31PX;
+    align-items: center;
+}
+.hpr{
+    padding: 100px;
+    margin: 13px;
+    font-size: 85px;
+}
+/* connection */
+#contact{
+position: relative;
+}
+#connect::before{
+    content: "";
+    
+    position: absolute;
+    width: 99.7%;
+    height: 60%;
+    opacity: 0.7;
+    z-index: -1;
+    background-image: url(./pictures/IIP.jpeg);
+}
+.f{
+    padding: 260px;
+    height: 10%;
+    width: 100%;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    padding: 10px;
+    margin: 20px 34px;
+}
+.group text{
+    width: 100%;
+    padding: 0.5rem;
+
+
+}
+
+    
+    
